@@ -966,7 +966,7 @@ function animateThreeLoop(){
 
   if(phase===2){
     heart.rotation.y += 0.006;
-    if(phaseTimer > 500){ 
+    if(phaseTimer > 1000){ 
       phase=3; phaseTimer=0;
       triggerFlash3D(800);
       
@@ -1019,7 +1019,7 @@ function animateThreeLoop(){
 
   if(phase===5){
     mainSphereGroup.rotation.y += 0.003;
-    if(phaseTimer > 350){
+    if(phaseTimer > 500){
       phase=6; phaseTimer=0;
     }
   }
